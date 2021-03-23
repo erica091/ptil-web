@@ -1,0 +1,220 @@
+.box-content {
+    padding-right: 2%;
+}
+
+.form-control-label {
+    font-weight: 700;
+}
+
+.no-gutter {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+
+.modal-form-input {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.form-datepicker-label {
+    padding-right: 10px;
+}
+
+.nav-in-row {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 80px;
+}
+
+.nav-row-img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-img-in-center {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav-label-in-center {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.label-selected {
+    font-weight: bold;
+}
+
+.form-date-margin-left {
+    margin-left: 15px;
+}
+
+.menu-wrapper{
+    height: 750px;
+}
+
+.all-modules-panel {
+    width: 1200px;
+    margin-top: calc(100vh * 0.025 );
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+.all-modules-panel-row {
+    height: 45%;
+    width: 100%;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.all-modules-panel-row-block {
+    height: 100%;
+    width: 16.5%;
+    padding: 80px 80px 80px 80px;
+    float: left;
+}
+
+.all-modules-panel-row-block-logo {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.all-modules-panel-row-block-title {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #367cb8;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+
+
+.search-area-lineSpacing {
+    height: 10px;
+}
+
+.search-area-label {
+    color: #4d4c4c;
+}
+
+
+.form-row-btn{
+    margin-right: 2%;
+}
+
+.ui-widget-content-new {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #333333;
+}
+
+.ui-widget-content-new td{
+     font-weight: normal;
+     overflow: hidden;
+     white-space: pre;
+     border: 1px solid #dddddd;
+     height: 22px;padding: 0 2px 0 2px;
+     border-bottom-width: 1px;
+     border-bottom-color: inherit;
+     border-bottom-style: solid;
+ }
+
+.search-input{
+    width: 150px;
+}
+
+.required-field-style{
+    border:0.5px solid #d5252e
+}
+
+
+.header-menu-title{
+    height: 30px;
+    color: #F6F6F6;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.search-input-upon-gird{
+    width: 200px;
+    margin-left: auto;
+}
+
+#menu a {
+    cursor:pointer;
+}
+
+
+.btn-procced{
+    margin: 2em 0 0 0;
+    padding: 0.7em 1.5em;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ff9900;
+    letter-spacing: 1px;
+    border-radius: 60px;
+    background: #ff9900;
+    color:#fff;
+    width: 120px;
+    height: 50px;
+}
+
+.navbar-selected-company-building{
+    float: right;
+    font-size: 12px;
+    color: #f3f3f3;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.first-step-content-list-block-list option{
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 14px;
+    display: block;
+    color: #7a7a7a;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 3px;
+}
+
+.checkbox-label-content{
+    margin-left:10px;
+    font-family: 'Microsoft YaHei UI';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.page-sub-title {
+    font-family: "Microsoft YaHei UI";
+    font-size: 20px;
+    color: #148bc4;
+}
+
+.required-field-tip-style{
+    padding-top: 10px;
+    font-family: 'Microsoft YaHei UI';
+    font-size: 12px;
+    color: #d8190a;
+    text-align: left;
+}
+
+.black_color{
+	background-color: #000000;
+	height: 2px;
+}
+[v-cloak], .hide_column{
+  display: none;
+}
