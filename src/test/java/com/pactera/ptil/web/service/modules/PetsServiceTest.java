@@ -41,11 +41,11 @@ public class PetsServiceTest {
 		List<PetsDto> pets1 = new ArrayList<>();
 		PetsDto petsDto1= new PetsDto();
 		petsDto1.setName("Molly");
-		petsDto1.setType("cat");
+		petsDto1.setType("Cat");
 		pets1.add(petsDto1);
 		PetsDto petsDto2= new PetsDto();
 		petsDto2.setName("Bob");
-		petsDto2.setType("cat");
+		petsDto2.setType("Cat");
 		pets1.add(petsDto2);
 		ownerDto1.setPets(pets1);
 		ownerList[0] = ownerDto1;
@@ -57,11 +57,11 @@ public class PetsServiceTest {
 		List<PetsDto> pets2 = new ArrayList<>();
 		PetsDto petsDto21= new PetsDto();
 		petsDto21.setName("Angle");
-		petsDto21.setType("cat");
+		petsDto21.setType("Cat");
 		pets2.add(petsDto21);
 		PetsDto petsDto22= new PetsDto();
 		petsDto22.setName("fff");
-		petsDto22.setType("dog");
+		petsDto22.setType("Dog");
 		pets2.add(petsDto22);
 		ownerDto2.setPets(pets2);
 		ownerList[1] = ownerDto2;
@@ -73,7 +73,7 @@ public class PetsServiceTest {
 		List<PetsDto> pets3 = new ArrayList<>();
 		PetsDto petsDto31= new PetsDto();
 		petsDto31.setName("Tigger");
-		petsDto31.setType("cat");
+		petsDto31.setType("Cat");
 		pets3.add(petsDto31);
 		ownerDto3.setPets(pets3);
 		ownerList[2] = ownerDto3;

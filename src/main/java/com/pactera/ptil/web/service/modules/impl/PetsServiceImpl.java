@@ -31,10 +31,10 @@ public class PetsServiceImpl implements PetsService {
 		for (int i = 0; i < ownerList.length; i++) {
 			if (ownerList[i].getPets() != null && !ownerList[i].getPets().isEmpty()) {
 				for (PetsDto pet : ownerList[i].getPets()) {
-					if (Constants.CAT.equals(pet.getType()) && Constants.MALE.equals(ownerList[i].getGender())) {
+					if (Constants.CAT.equalsIgnoreCase(pet.getType()) && Constants.MALE.equalsIgnoreCase(ownerList[i].getGender())) {
 						maleCatsList.add(pet.getName());
 					}
-					if (Constants.CAT.equals(pet.getType()) && Constants.FEMALE.equals(ownerList[i].getGender())) {
+					if (Constants.CAT.equalsIgnoreCase(pet.getType()) && Constants.FEMALE.equalsIgnoreCase(ownerList[i].getGender())) {
 						femaleCatsList.add(pet.getName());
 					}
 				}
