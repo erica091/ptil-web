@@ -12,7 +12,7 @@ var myDivApp = new Vue({
 	},
 	methods: {
 		getCityList : function(){
-			this.$http.get("/ptil/weatherApi/getCityList").then(function(res){
+			this.$http.get("/ptil/city/getCityList").then(function(res){
 				if(res.data.code ==0){
 					this.cityList = res.data.data;
 				} else {

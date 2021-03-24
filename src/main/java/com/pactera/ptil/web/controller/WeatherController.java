@@ -1,7 +1,5 @@
 package com.pactera.ptil.web.controller;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +10,6 @@ import org.springframework.web.client.RestTemplate;
 import com.pactera.ptil.web.common.JsonResult;
 import com.pactera.ptil.web.dto.WeatherInfoDto;
 import com.pactera.ptil.web.dto.WeatherResponseDto;
-import com.pactera.ptil.web.pojo.CityEntity;
 import com.pactera.ptil.web.service.exception.ExceptionLogService;
 import com.pactera.ptil.web.service.modules.WeatherService;
 
@@ -53,17 +50,5 @@ public class WeatherController {
 		}
 	}
 	
-	@ApiOperation(value = "get all cities", notes = "It's used to search all cities")
-	@GetMapping("/getCityList")
-	public JsonResult<List<CityEntity>> getCityList(){
-		List<CityEntity> cityList = null;
-		try {
-			cityList = weatherService.getAllCity();
-		} catch (Exception e) {
-			 exceptionLogService.addExceptionLog(e);
-			return JsonResult.fail(e.getMessage());
-		}
-		return JsonResult.ok(cityList);
-	}
 
 }
