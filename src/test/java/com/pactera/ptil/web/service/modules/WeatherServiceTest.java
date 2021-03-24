@@ -24,7 +24,7 @@ import com.pactera.ptil.web.utils.Constants;
 
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = PtilWebApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+//@SpringBootTest(classes = PtilWebApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class WeatherServiceTest {
 
 	@Autowired
