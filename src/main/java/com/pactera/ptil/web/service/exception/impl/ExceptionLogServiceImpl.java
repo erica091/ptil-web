@@ -1,7 +1,5 @@
 package com.pactera.ptil.web.service.exception.impl;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,9 +33,6 @@ public class ExceptionLogServiceImpl implements ExceptionLogService {
 
 	private String getExceptionStaclTrace(Exception e) {
         e.printStackTrace();
-//        StringWriter sw = new StringWriter();
-//        PrintWriter pw = new PrintWriter(sw);
-//        e.printStackTrace(pw);
         return e.getLocalizedMessage();
     }
     
